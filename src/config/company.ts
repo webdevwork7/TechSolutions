@@ -2,9 +2,9 @@
 export const COMPANY_CONFIG = {
   COMPANY_NAME: "TechSolutions Pro",
   COMPANY_TAGLINE: "Transforming Ideas into Digital Solutions",
-  COMPANY_EMAIL: "info@techsolutionspro.com",
-  COMPANY_PHONE: "+91-9876543210",
-  COMPANY_ADDRESS: "Delhi, India",
+  COMPANY_EMAIL: "info@techsolutionspro.site",
+  COMPANY_PHONE: "+1 (555) 123-4567",
+  COMPANY_ADDRESS: "San Francisco, CA, USA",
   COMPANY_WEBSITE: "www.techsolutionspro.com",
   
   // Social Media
@@ -35,37 +35,43 @@ export const SERVICES = [
     id: 1,
     title: "Custom Software Development",
     description: "Tailored software solutions to meet your unique business requirements",
-    icon: "Code"
+    icon: "Code",
+    phone: "+1 (555) 123-4567"
   },
   {
     id: 2,
     title: "Web & Mobile App Development",
     description: "Responsive web applications and native mobile apps for iOS and Android",
-    icon: "Smartphone"
+    icon: "Smartphone",
+    phone: "+1 (555) 123-4567"
   },
   {
     id: 3,
     title: "UI/UX Design",
     description: "User-centered design that creates engaging and intuitive experiences",
-    icon: "Palette"
+    icon: "Palette",
+    phone: "+1 (555) 123-4567"
   },
   {
     id: 4,
     title: "DevOps & Cloud Consulting",
     description: "Cloud migration, infrastructure automation, and DevOps implementation",
-    icon: "Cloud"
+    icon: "Cloud",
+    phone: "+1 (555) 123-4567"
   },
   {
     id: 5,
     title: "AI/ML Solutions",
     description: "Artificial Intelligence and Machine Learning solutions for business automation",
-    icon: "Brain"
+    icon: "Brain",
+    phone: "+1 (555) 123-4567"
   },
   {
     id: 6,
     title: "QA & Testing",
     description: "Comprehensive testing services to ensure quality and reliability",
-    icon: "Shield"
+    icon: "Shield",
+    phone: "+1 (555) 123-4567"
   }
 ];
 

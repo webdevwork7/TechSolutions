@@ -36,22 +36,21 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link to="/about" className="text-gray-300 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-white transition-colors">Services</Link></li>
               <li><Link to="/portfolio" className="text-gray-300 hover:text-white transition-colors">Portfolio</Link></li>
               <li><Link to="/careers" className="text-gray-300 hover:text-white transition-colors">Careers</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-white transition-colors">Contact</Link></li>
             </ul>
           </div>
 
-          {/* Services */}
+          {/* Industries */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Services</h4>
+            <h4 className="text-lg font-semibold mb-4">Industries</h4>
             <ul className="space-y-2">
-              <li><span className="text-gray-300">Custom Software Development</span></li>
-              <li><span className="text-gray-300">Web & Mobile Apps</span></li>
-              <li><span className="text-gray-300">UI/UX Design</span></li>
-              <li><span className="text-gray-300">Cloud Consulting</span></li>
-              <li><span className="text-gray-300">AI/ML Solutions</span></li>
+              <li><span className="text-gray-300">Healthcare</span></li>
+              <li><span className="text-gray-300">Fintech</span></li>
+              <li><span className="text-gray-300">E-commerce</span></li>
+              <li><span className="text-gray-300">Real Estate</span></li>
+              <li><span className="text-gray-300">EdTech</span></li>
             </ul>
           </div>
 
@@ -75,7 +74,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
-            © 2024 {COMPANY_CONFIG.COMPANY_NAME}. All rights reserved.
+            © 2025 {COMPANY_CONFIG.COMPANY_NAME}. All rights reserved.
           </p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <a href={COMPANY_CONFIG.SOCIAL_LINKS.linkedin} className="text-gray-300 hover:text-white transition-colors">

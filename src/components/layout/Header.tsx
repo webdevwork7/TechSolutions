@@ -14,7 +14,6 @@ const Header = () => {
     { name: 'Services', href: '/services' },
     { name: 'Industries', href: '/industries' },
     { name: 'Portfolio', href: '/portfolio' },
-    { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
 
@@ -61,12 +60,13 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Link
-              to="/contact"
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            <a
+              href={`tel:${COMPANY_CONFIG.COMPANY_PHONE}`}
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors inline-flex items-center"
             >
-              Get Quote
-            </Link>
+              <Phone className="mr-2" size={16} />
+              Call Now
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -96,13 +96,14 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <Link
-                to="/contact"
-                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-center"
+              <a
+                href={`tel:${COMPANY_CONFIG.COMPANY_PHONE}`}
+                className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors text-center inline-flex items-center justify-center"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Get Quote
-              </Link>
+                <Phone className="mr-2" size={16} />
+                Call Now
+              </a>
             </div>
           </div>
         )}
