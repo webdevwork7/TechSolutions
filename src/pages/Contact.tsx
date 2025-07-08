@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 import { COMPANY_CONFIG } from '@/config/company';
+import Map from '@/components/Map';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -100,7 +101,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                      placeholder="+91-9876543210"
+                      placeholder="+1 (555) 123-4567"
                     />
                   </div>
                   <div>
@@ -214,16 +215,10 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Map Placeholder */}
+              {/* Interactive Map */}
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">Find Us</h3>
-                <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <MapPin className="text-gray-400 mx-auto mb-2" size={48} />
-                    <p className="text-gray-600">Interactive Map</p>
-                    <p className="text-sm text-gray-500">{COMPANY_CONFIG.COMPANY_ADDRESS}</p>
-                  </div>
-                </div>
+                <Map />
               </div>
             </div>
           </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Users, Target, Eye, Award } from 'lucide-react';
 import { COMPANY_CONFIG } from '@/config/company';
@@ -7,14 +6,14 @@ const About = () => {
   const leadership = [
     {
       name: "John Smith",
-      role: "CEO & Founder",
+      role: "CEO & Founder", 
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
       bio: "15+ years in software development and business strategy"
     },
     {
       name: "Sarah Wilson",
       role: "CTO",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+      image: "/lovable-uploads/c03a2e49-3ce3-4426-8fee-aff283a0c5e7.png",
       bio: "Expert in cloud architecture and emerging technologies"
     },
     {

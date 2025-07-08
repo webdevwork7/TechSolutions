@@ -14,7 +14,7 @@ const ClientSuccessSection = () => {
         "30% reduction in administrative time",
         "100% HIPAA compliance achieved"
       ],
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=400&h=250&fit=crop"
+      image: "https://kms-healthcare.com/wp-content/uploads/2022/02/iStock-1300745916-1024x576.jpg"
     },
     {
       company: "FinanceFlow Corp",
