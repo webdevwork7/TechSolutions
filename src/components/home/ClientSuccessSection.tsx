@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Star, TrendingUp, Users, Zap } from 'lucide-react';
 
@@ -6,7 +5,7 @@ const ClientSuccessSection = () => {
   const successStories = [
     {
       company: "HealthTech Solutions",
-      industry: "Healthcare",
+      industry: "Healthcare", 
       challenge: "Needed a HIPAA-compliant patient management system",
       solution: "Custom web application with advanced security features",
       results: [
@@ -14,7 +13,7 @@ const ClientSuccessSection = () => {
         "30% reduction in administrative time",
         "100% HIPAA compliance achieved"
       ],
-      image: "https://kms-healthcare.com/wp-content/uploads/2022/02/iStock-1300745916-1024x576.jpg"
+      image: "https://www.actian.com/wp-content/uploads/2023/12/what-is-health-data-management.jpg"
     },
     {
       company: "FinanceFlow Corp",
