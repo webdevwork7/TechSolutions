@@ -1,11 +1,11 @@
 
 export const COMPANY_CONFIG = {
-  COMPANY_NAME: "TechSolutions Pro",
+  COMPANY_NAME: "Intellisys",
   COMPANY_TAGLINE: "Transforming Ideas into Digital Solutions",
-  COMPANY_EMAIL: "info@techsolutionspro.site",
+  COMPANY_EMAIL: "info@intellisys.site",
   COMPANY_PHONE: "+1 (555) 123-4567",
   COMPANY_ADDRESS: "San Francisco, CA, USA",
-  COMPANY_WEBSITE: "www.techsolutionspro.com",
+  COMPANY_WEBSITE: "www.intellisys.site",
   
   // Social Media
   SOCIAL_LINKS: {
